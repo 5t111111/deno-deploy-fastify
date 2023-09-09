@@ -4,6 +4,7 @@
     "start": "deno run --allow-net --allow-read --allow-env --allow-sys --watch --unstable main.ts"
   },
   "imports": {
-    "fastify": "npm:fastify@4"
+    "fastify": "npm:fastify@4",
+    "@fastify/cors": "npm:@fastify/cors@8"
   }
 }
