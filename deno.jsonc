@@ -1,0 +1,9 @@
+{
+  "lock": false,
+  "tasks": {
+    "start": "deno run --allow-net --allow-read --allow-env --allow-sys --watch --unstable main.ts"
+  },
+  "imports": {
+    "fastify": "npm:fastify@4"
+  }
+}
