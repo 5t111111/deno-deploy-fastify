@@ -5,6 +5,9 @@
   },
   "imports": {
     "fastify": "npm:fastify@4",
-    "@fastify/cors": "npm:@fastify/cors@8"
+    "@fastify/cors": "npm:@fastify/cors@8",
+    "@trpc/server": "npm:@trpc/server@10",
+    "@trpc/server/": "npm:/@trpc/server@10/",
+    "zod": "npm:zod@3"
   }
 }
